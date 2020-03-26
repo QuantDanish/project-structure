@@ -65,10 +65,11 @@ All configuration files should be in root directory. e.g. webpack.config.js, tsc
 
 ## Naming convention
 
-1. All folder name should be camelCase.
+1. All folder name should be in camelCase.
 2. React component name should be in PascalCase
-3. Use Suffix Component for pure react component
-4. User suffix Container for those component which interact with redux
+3. Use suffix "Component" for pure react component and extension (.jsx|.tsx)
+4. User suffix "Container" for those component which interact with redux (.js|.ts)
+5. All other js/ts file name will be in camelCase.
 
 ## folder description
 
