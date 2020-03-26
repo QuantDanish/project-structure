@@ -1,1 +1,24 @@
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('./app/assets/fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: bolder;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('./app/assets/fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url('./app/assets/fonts/Montserrat-Medium.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+body {
+  font-family: Montserrat-Regular;
+}
